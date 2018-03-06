@@ -6,6 +6,7 @@
 -->
 <html>
 	<head>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<title>Shepp It</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,18 +22,9 @@
 				<header id="header" class="alt">
 					<h1 id="logo"><a href="index.html"><img class="header-logo" src="images/logo2.png" style="height:30px; width:30px;"></a></h1>
 					<nav id="nav">
-
 						<ul>
-							<!--  <li class="submenu">
-								<a href="#">Our Services</a>
-								<ul>
-									<li><a href="patient.html">Patient Experience</a></li>
-									<li><a href="business.html">Business Support</a></li>
-									<li><a href="technology.html">Technology Empowerment</a></li>
-									<li><a href="fullservice.html">Full Service Partnership</a></li>
-								</ul>
-							</li> -->
-							<li><a href="contact.html" class="button special">Contact Us</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html" class="button">Contact</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -51,7 +43,9 @@
 						<header>
 							<h2>SHEPP IT</h2>
 						</header>
-						<p>We build healthcare products</p>
+						<p>Bridging the gap between<br>
+							 what healthcare needs <br>
+							 and what technology can do</p>
 
 					</div>
 
@@ -61,14 +55,14 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon fa-heartbeat"></span>
+						<span class="icon fa-lightbulb-o"></span>
 						<h2>build a healthy product</h2>
 						<p>Fortune reported the top reason startups fail is
-							<a href="http://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/" target=_blank class="orange-link"><strong>they make a
+							<a href="http://fortune.com/2014/09/25/why-startups-fail-according-to-their-founders/" target=_blank class="blue-link"><strong> because they make a
 							product no one wants</strong></a>.
 						<br>
-						We can help you there with over 13 years of combined experience building and launching healthcare products,
-						we make sure you build the right thing in a tricky market.
+						We can help you there, with over 10 years of building and launching technology solutions,
+						we work with you to build the right thing in a tricky market.
 						</p>
 					</header>
 
@@ -83,7 +77,7 @@
 									<p>As former product designers and developers that have built and launched products across the healthcare spectrum  - we know some of the
 											hurdles your new project is likely to face.
 									<br><br>
-									Whether you need to prove your product is HIPAA compliant, integrate with an EHR,
+									Whether you need to prove your product is HIPAA compliant to an IRB, integrate with an EHR,
 							 		or discover the world of clinical trials, we have the experience to help you succeed.</p>
 								</div>
 
@@ -132,22 +126,22 @@
 							</div>
 						</section>
 
-						<!-- Two -->
+						<!-- Service Section -->
 							<section class="wrapper style1 container special">
 								<div class="row">
 									<div class="4u 12u(narrower)">
 
 										<section>
 											<header>
-											<i class="icon fa-2x fa-hospital-o"></i>
+											<i class="icon fa-2x fa-hospital-o" style="color:#FF5D00;"></i>
 												<h3>Products</h3>
 											</header>
-											<p>Designing, building and validating your early stage projects.</p>
-											<!-- <footer>
+											<p>Designing, building and validating your early stage products.</p>
+											<footer>
 												<ul class="buttons">
-													<li><a href="#" class="button small">Learn More</a></li>
+													<li class="button small" id="products">Learn More</li>
 												</ul>
-											</footer> -->
+											</footer>
 										</section>
 
 									</div>
@@ -155,15 +149,15 @@
 
 										<section>
 											<header>
-												<i class="icon fa-2x fa-cog"></i>
+												<i class="icon fa-2x fa-cog" style="color:#FF5D00;"></i>
 												<h3>Integrations</h3>
 											</header>
-											<p>Creating custom APIs to enhance your existing products.</p>
-											<!-- <footer>
+											<p>Creating custom APIs to enhance your existing solution.</p>
+											<footer>
 												<ul class="buttons">
-													<li><a href="#" class="button small">Learn More</a></li>
+													<li class="button small" id="integrations">Learn More</li>
 												</ul>
-											</footer> -->
+											</footer>
 										</section>
 
 									</div>
@@ -171,48 +165,212 @@
 
 										<section>
 											<header>
-												<i class="icon fa-2x fa-lightbulb-o"></i>
+												<i class="icon fa-2x fa-search" style="color:#FF5D00;"></i>
 												<h3>Discovery</h3>
 											</header>
-											<p>Consulting with you to determine scope and scale of your product.</p>
-											<!-- <footer>
+											<p>Planning with you to create proper scope and scale of your project.</p>
+											<footer>
 												<ul class="buttons">
-													<li><a href="#" class="button small">Learn More</a></li>
+													<li class="button small" id="discovery">Learn More</li>
 												</ul>
-											</footer> -->
+											</footer>
 										</section>
 
 									</div>
 								</div>
 							</section>
 
-					</article>
+					<!-- Learn More Hidden Elements -->
 
-			<!-- CTA -->
-				<section id="cta">
+						<!-- Product Info -->
+					<section class="hidden wrapper show-box container" id="productInfo">
+						<div class="content">
+
+								<h2 style="color:#00a2ff;"><strong>product services</strong></h2>
+								<p>MVPs, Alphas, Betas, v1s... we thrive in the early stages of product design and development.
+								Our product cycle follows a lean, Agile approach that usually goes something like this:</p>
+
+								 	<ul>
+										<div class="flex-container">
+									   	<li class="number">1</li>
+											<div class="right-desc-container">
+												<li class="flex-item title"><strong>Discover</strong></li>
+												<li class="flex-item phase">We dive into your problem-space to understand what problem you're trying to solve, when and for whom.</li>
+											</div>
+										</div>
+
+										<div class="flex-container">
+											<li class="number">2</li>
+											<div class="right-desc-container">
+												<li class="title"><strong>Define</strong></li>
+												<li class="phase">We bring our expertise forward to start scoping your MVP solutions to ensure we are clear on defining success for your product(s), scaleability and feasibility.</li>
+											</div>
+										</div>
+										<div class="flex-container">
+											<li class="number">3</li>
+												<div class="right-desc-container">
+													<li class="title"><strong>Learn Quickly</strong></li>
+													<li class="phase">We put pen to paper (or color to Sketch file) and begin building the bones of the MVP with lots of user testing, feedback reviews with you and stress testing
+														the product scope along the way.</li>
+												</div>
+										</div>
+										<div class="flex-container">
+											<li class="number">4</li>
+												<div class="right-desc-container">
+													<li class="title"><strong>Build</strong></li>
+													<li class="phase">With our front-end and back-end teams working concurrently, in this phase you'll see the UI become more elegant and the core of your product come to life. We'll continue our user testing cycles to iron out final details before launch.</li>
+												</div>
+										</div>
+										<div class="flex-container">
+											<li class="number">5</li>
+												<div class="right-desc-container">
+													<li class="title"><strong>Deploy</strong></li>
+													<li class="phase">Time to launch! We'll rapidly deploy code as soon as it's ready so we don't keep you or your customers, waiting. Once live,
+													we'll monitor the health of the product by watching our KPIs (key performance indicators), closely.</li>
+												</div>
+										</div>
+										<div class="flex-container">
+											<li class="number">6</li>
+												<div class="right-desc-container">
+													<li class="title"><strong>Rinse, Wash, Repeat</strong></li>
+													<li class="phase">Building a great product is more about observation than lucky guesses. We'll be cycling through steps 3, 4 and 5 numerous times with you to land on the winning solution.</li>
+												</div>
+										</div>
+										</ul>
+						</div>
+					</section>
+
+					<!-- Integrations -->
+				<section class=" hidden wrapper show-box container" id="integrationsInfo">
+					<div class="content">
+
+							<h2 style="color:#00a2ff;"><strong>integration services</strong></h2>
+							<p>One of the most important components of your health product is how
+								it interacts with external data. Whether your product improves the patient experience,
+								gives clinicians real-time decision support or does big-data machine learning, we can help
+								ensure that you get the data that you need in a secure way.</p>
+								<p>We have deep domain knowledge and experience with intergrating with all types of data and external systems.</p>
+							<div>
+								<p>Real Time Patient Feeds</p>
+								<p>Often, getting real-time patient data is a "make or break" component of your product. We leverage our connection
+									with industry partners to minimize the painful experience of integrating with an electronic health record.
+									We have experience setting up a interface with all the major EHRs. We build integrations with scalability in mind;
+									you shouldn't have to start from scratch for every customer.</p>
+							</div>
+							<div>
+								<p>Data Digestion (ETL)</p>
+								<p>Perhaps your product doesn't need real-time access to data, and instead needs to ingest nightly differentials from a
+									data source. We can setup a data pipeline that delivers the data you need on a predictable interval. Whether you're picking up flat
+									files, reading from a relational database, or receving event notifications, we can ingest the data into your platform.</p>
+							</div>
+							<div>
+								<p>Security</p>
+								<p>One of the most daunting tasks of setting up an integration with Protected health information (PHI) is data security. Many healthcare
+									organizations require written and verifiable proof that your product transmits, receives, and stores protected health information
+									with the utmost security. We can help you speed through the review process while making sure that your bases are covered.</p>
+							</div>
+					</div>
+				</section>
+
+				<!-- Discovery -->
+			<section class="hidden wrapper show-box container" id="discoveryInfo">
+				<div class="content">
+						<h2 style="color:#00a2ff;"><strong>discovery services</strong></h2>
+						<p>Think you have an idea for a product, but aren't sure where to start? Our background in taking products from 0 to 1
+						is based on our ability to correctly isolate the product-market-fit and quickly take us to the correct solution.
+						This is easier said than done and if you want to hedge your bets on your healthcare idea, running through discovery and validation
+						excersizes with our team will help ensure you've vetted the risks, customer base needs and hurdles as much as possible before putting
+						serious money and time in the wrong direction.</p>
+						<p>Our process for discovery stays lean with outcomes that should give you the backing needed to feel confident in front customers and your board.</p>
+
+						<ul>
+						 <div class="flex-container">
+							 <li class="number">1</li>
+							 <div class="right-desc-container">
+								 <li class="flex-item title"><strong>Discover</strong></li>
+								 <li class="flex-item phase">We dive into your problem-space to understand what problem you're trying to solve, when and for whom.</li>
+							 </div>
+						 </div>
+
+						 <div class="flex-container">
+							 <li class="number">2</li>
+							 <div class="right-desc-container">
+								 <li class="title"><strong>Define</strong></li>
+								 <li class="phase">We bring our expertise forward to start scoping your MVP solutions to ensure we are clear on defining success for your product(s), scaleability and feasibility.</li>
+							 </div>
+						 </div>
+						 <div class="flex-container">
+							 <li class="number">3</li>
+								 <div class="right-desc-container">
+									 <li class="title"><strong>Learn Quickly</strong></li>
+									 <li class="phase">We put pen to paper (or color to Sketch file) and begin building the bones of the MVP with lots of user testing, feedback reviews with you and stress testing
+										 the product scope along the way.</li>
+								 </div>
+						 </div>
+						 <div class="flex-container">
+							 <li class="number">4</li>
+								 <div class="right-desc-container">
+									 <li class="title"><strong>Build</strong></li>
+									 <li class="phase">With our front-end and back-end teams working concurrently, in this phase you'll see the UI become more elegant and the core of your product come to life. We'll continue our user testing cycles to iron out final details before launch.</li>
+								 </div>
+						 </div>
+					</ul>
+
+				</div>
+			</section>
+
+				</article>
+
+				<!-- team blurb -->
+
+				<section id="team">
 
 					<header>
-						<h2>Let's Chat</h2>
-						<p>Contact us to start the conversation.</p>
+						<h2>Meet the Team</h2>
+						<p>With resumes including major healthcare organizations and health tech startups, our co-founders have dedicated their careers to improving healthcare.</p>
 					</header>
 					<footer>
 						<ul class="buttons">
-							<li><a href="contact.html" class="button special">Contact Us</a></li>
+							<li><a href="contact.html" class="button">About Us</a></li>
 						</ul>
 					</footer>
 
 				</section>
 
-			<!-- Footer -->
-				<footer id="footer">
+					<!-- CTA -->
+					<section id="cta">
 
-					<ul class="copyright">
-						<li>&copy; 2018</li><li>Shepp It is an Eigenvector Company</li>
-					</ul>
+						<header>
+							<h2>Let's Chat</h2>
+							<p>Contact us to start the conversation.</p>
+						</header>
+						<footer>
+							<ul class="buttons">
+								<li><a href="contact.html" class="button special">Contact Us</a></li>
+							</ul>
+						</footer>
 
-				</footer>
+					</section>
 
-		</div>
+					<!-- Footer -->
+					<footer id="footer">
+
+						<!-- <ul class="icons">
+							<li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+							<li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+						</ul> -->
+
+						<ul class="copyright">
+							<li>&copy; 2018</li><li>Shepp It is an Eigenvector Company</a></li>
+							<!--design help html5up!-->
+						</ul>
+
+					</footer>
+
+				</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

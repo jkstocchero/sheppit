@@ -113,6 +113,25 @@
 
 			}
 
+			// Hide/Show Information
+			// Toggle for the learn more sections on the index page
+			$(document).ready(function(){
+				$("#products").click(function(){
+					$("#integrationsInfo").hide();
+					$("#discoveryInfo").hide();
+        	$("#productInfo").slideToggle();
+    		});
+				$("#integrations").click(function(){
+					$("#productInfo").hide();
+					$("#discoveryInfo").hide();
+        	$("#integrationsInfo").slideToggle();
+    		});
+				$("#discovery").click(function(){
+					$("#productInfo").hide();
+					$("#integrationsInfo").hide();
+        	$("#discoveryInfo").slideToggle();
+    		});
+			})
 	});
 
 })(jQuery);
