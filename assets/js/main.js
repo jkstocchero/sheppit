@@ -116,21 +116,25 @@
 			// Hide/Show Information
 			// Toggle for the learn more sections on the index page
 			$(document).ready(function(){
+				var scrollTime = 500;
 				$("#products").click(function(){
 					$("#integrationsInfo").hide();
 					$("#discoveryInfo").hide();
-        	$("#productInfo").slideToggle();
-    		});
+					$("#productInfo").slideToggle();
+					$('html, body').animate({scrollTop: $("#productInfo").offset().top }, scrollTime);
+				});
 				$("#integrations").click(function(){
 					$("#productInfo").hide();
 					$("#discoveryInfo").hide();
-        	$("#integrationsInfo").slideToggle();
-    		});
+					$("#integrationsInfo").slideToggle();
+					$('html, body').animate({scrollTop: $("#integrationsInfo").offset().top }, scrollTime);
+				});
 				$("#discovery").click(function(){
 					$("#productInfo").hide();
 					$("#integrationsInfo").hide();
-        	$("#discoveryInfo").slideToggle();
-    		});
+					$("#discoveryInfo").slideToggle();
+					$('html, body').animate({scrollTop: $("#discoveryInfo").offset().top }, scrollTime);
+				});
 			})
 	});
 
