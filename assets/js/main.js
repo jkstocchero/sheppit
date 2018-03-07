@@ -120,20 +120,29 @@
 				$("#products").click(function(){
 					$("#integrationsInfo").hide();
 					$("#discoveryInfo").hide();
+					var isVisible = $("#productInfo").is(":visible");
 					$("#productInfo").slideToggle();
-					$('html, body').animate({scrollTop: $("#productInfo").offset().top }, scrollTime);
+					if (!isVisible) {
+						$('html, body').animate({scrollTop: $("#productInfo").offset().top }, scrollTime);
+					}
 				});
 				$("#integrations").click(function(){
 					$("#productInfo").hide();
 					$("#discoveryInfo").hide();
+					var isVisible = $("#integrationsInfo").is(":visible");
 					$("#integrationsInfo").slideToggle();
-					$('html, body').animate({scrollTop: $("#integrationsInfo").offset().top }, scrollTime);
+					if (!isVisible) {
+						$('html, body').animate({scrollTop: $("#integrationsInfo").offset().top }, scrollTime);
+					}
 				});
 				$("#discovery").click(function(){
 					$("#productInfo").hide();
 					$("#integrationsInfo").hide();
+					var isVisible = $("#discoveryInfo").is(":visible");
 					$("#discoveryInfo").slideToggle();
-					$('html, body').animate({scrollTop: $("#discoveryInfo").offset().top }, scrollTime);
+					if (!isVisible) {
+						$('html, body').animate({scrollTop: $("#discoveryInfo").offset().top }, scrollTime);
+					}
 				});
 			})
 	});
