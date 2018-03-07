@@ -3170,7 +3170,6 @@
 			input[type="submit"],
 			input[type="reset"],
 			.button {
-				max-width: 20em;
 				width: 100%;
 			}
 
