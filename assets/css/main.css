@@ -84,6 +84,13 @@
 		color: #00a2ff;
 	}
 
+	.infoHeader {
+		font-size: 1.25em;
+		color: #FF5d00;
+		font-weight: 400;
+		font-style: italic;
+	}
+
 
 /* template */
 
