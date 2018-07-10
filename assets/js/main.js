@@ -20,6 +20,7 @@
 			$body = $('body'),
 			$header = $('#header'),
 			$banner = $('#banner');
+			$logo = $('#logo');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -105,8 +106,8 @@
 						delay:		0,
 						range:		1,
 						anchor:		'top',
-						on:			function() { $header.addClass('alt reveal'); },
-						off:		function() { $header.removeClass('alt'); }
+						on:			function() { $header.addClass('alt reveal'); $logo.addClass('hidden'); },
+						off:		function() { $header.removeClass('alt'); $logo.removeClass('hidden'); },
 					});
 
 				});
