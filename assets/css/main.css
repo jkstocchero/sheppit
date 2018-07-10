@@ -1,6 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
+/*joell classes*/
+.hidden {
+	display: none;
+}
 /* flex box for descriptions */
 
 .flex-container {
@@ -2507,7 +2511,7 @@
 	#banner {
 		background-attachment: scroll, fixed;
 		background-color: #272727;
-		background-image: url("images/overlay.png"), url("../../images/mtn.jpeg");
+		background-image: url("images/overlay.png"), url("../../images/Beetle-Nut-Trees.jpg");
 		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -3303,11 +3307,5 @@
 				height: 34px;
 			}
 
-			/*joell classes*/
-
-			h1 img .header-logo {
-				height: 25%;
-				width: 25%
-			}
 
 	}
