@@ -2595,7 +2595,6 @@
 
 	#banner {
 		background-attachment: scroll, fixed;
-<<<<<<< HEAD
 		background-color: #272727;
 		background-image: url("images/overlay.png"), url("../../images/Beetle-Nut-Trees.jpg");
 		background-position: top left, top center;
@@ -2606,9 +2605,6 @@
 		padding: 8em 0;
 		text-align: center;
 	}
-=======
-
->>>>>>> video uploaded
 
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
