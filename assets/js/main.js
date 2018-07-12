@@ -106,8 +106,14 @@
 						delay:		0,
 						range:		1,
 						anchor:		'top',
-						on:			function() { $header.addClass('alt reveal'); $logo.addClass('hidden'); },
-						off:		function() { $header.removeClass('alt'); $logo.removeClass('hidden'); },
+						on:			function() { 
+							$header.removeClass('alt reveal'); 
+							// $logo.addClass('hidden'); 
+						},
+						off:		function() { 
+							// $header.addClass('hidden'); 
+							// $logo.removeClass('hidden'); 
+						},
 					});
 
 				});
@@ -115,10 +121,8 @@
 			}
 
 			// Homepage video
-			$( document ).ready(function() {
-
+			$(document).ready(function() {
 			    scaleVideoContainer();
-
 			    initBannerVideoSize('.video-container .poster img');
 			    initBannerVideoSize('.video-container .filter');
 			    initBannerVideoSize('.video-container video');
@@ -133,20 +137,17 @@
 			});
 
 			function scaleVideoContainer() {
-
 			    var height = $(window).height() + 5;
 			    var unitHeight = parseInt(height) + 'px';
 			    $('.homepage-hero-module').css('height',unitHeight);
-
+				$('.filter').css('height',unitHeight);
 			}
 
 			function initBannerVideoSize(element){
-
 			    $(element).each(function(){
 			        $(this).data('height', $(this).height());
 			        $(this).data('width', $(this).width());
 			    });
-
 			    scaleBannerVideoSize(element);
 
 			}
