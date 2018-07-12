@@ -5,12 +5,18 @@
 .hidden {
 	display: none;
 }
+
+.heading {
+	font-size: 2em;
+	color: #007958;
+	font-weight: 500;
+}
 /* flex box for descriptions */
 
 .flex-container {
 	display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
 	width: 90%;
 	align-items: center;
 	margin-bottom: 2em;
@@ -53,9 +59,9 @@
 	display: none;
 }
 
-.blue-link {
-	color: #00a2ff;
-	font-weight: 400;
+.hyperlink {
+	color: #9013FE;
+	font-weight: 700;
 }
 
 .show-box {
@@ -99,7 +105,7 @@
 /* template */
 
 .caption-text {
-  color: #000;
+  color: #312F47;
 }
 
 @media screen and (max-width: 850px) {
@@ -1815,7 +1821,7 @@
 			header.special .icon:before {
 				font-size: 3.5em;
 				opacity: 1;
-				color: #FF5D00;
+				color: #76C73A;
 			}
 
 	footer > :last-child {
@@ -2062,7 +2068,7 @@
 	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
-		opacity: 0.35;
+		opacity: 0.75;
 		overflow: hidden;
 		position: relative;
 	}
@@ -2223,7 +2229,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #eeeeee;
+			background-color: #efefef;
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2607,14 +2613,21 @@
 
 	#cta {
 		background-attachment: scroll, fixed;
-		background-color: #272727;
-		background-image: url("images/overlay.png"), url("../../images/mtn.jpeg");
+		background-image: url("../../images/Beetle-Nut-Trees.jpg");
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
-		color: #fff;
-		padding: 5em;
+	}
+
+	.footer-layer {
+		background-color: #FFF;
+		opacity: 1;
+		color: #007958;
 		text-align: center;
+		padding: 5em;
+		height: auto;
+		width: 50%;
+		margin: auto;
 	}
 
 		#cta header {
@@ -2624,8 +2637,8 @@
 /* Footer */
 
 	#footer {
-		background: rgba(0, 0, 0, 0.85);
-		color: #fff;
+		background: #DEDEDE;
+		color: #000;
 		padding: 2em;
 		text-align: center;
 	}
