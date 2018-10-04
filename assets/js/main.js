@@ -1,8 +1,4 @@
-/*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
 
@@ -13,8 +9,6 @@
 		narrower: '(max-width: 840px)',
 		mobile: '(max-width: 736px)'
 	});
-
-	// Autotype in header of homepage goes here
 
 
 	$(function() {
