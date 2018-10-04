@@ -2,13 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*joell classes*/
+
+.selectedmenu {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #87F306;
+}
+
 .hidden {
 	display: none;
 }
 
 .heading {
 	font-size: 2em;
-	color: #007958;
+	color: #212121;
 	font-weight: 500;
 }
 /* flex box for descriptions */
@@ -2591,10 +2598,7 @@
 
 	#cta {
 		background-attachment: scroll, fixed;
-		background-image: url("../../images/trees.jpg");
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-color: #000000;
 	}
 
 	.footer-layer {
@@ -2624,6 +2628,7 @@
 		#footer .copyright {
 			font-size: 0.8em;
 			line-height: 1em;
+			color: #87F306;
 		}
 
 			#footer .copyright a {
@@ -2635,6 +2640,7 @@
 				margin-left: 1em;
 				padding-left: 1em;
 				border-left: dotted 1px;
+				color: #9013FE;
 			}
 
 				#footer .copyright li:first-child {
