@@ -14,6 +14,9 @@
 		mobile: '(max-width: 736px)'
 	});
 
+	// Autotype in header of homepage goes here
+
+
 	$(function() {
 
 		var	$window = $(window),
