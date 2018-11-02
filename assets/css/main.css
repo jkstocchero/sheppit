@@ -111,7 +111,7 @@
 /* template */
 
 .caption-text {
-  color: #312F47;
+  color: #58a200;
 }
 
 @media screen and (max-width: 850px) {
@@ -1823,7 +1823,7 @@
 			header.special .icon:before {
 				font-size: 3.5em;
 				opacity: 1;
-				color: #76C73A;
+				color: #58a200;
 			}
 
 	footer > :last-child {
@@ -2019,7 +2019,7 @@
 		.icon.featured {
 			cursor: default;
 			display: block;
-			margin: 0 0 1.5em 0;
+			margin: 0 0 1rem 0;
 			opacity: .8;
 			text-align: center;
 		}
