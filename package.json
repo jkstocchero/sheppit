@@ -1,0 +1,14 @@
+{
+  "name": "sheppit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jkshepperson/sheppit.git",
+  "author": "Nick Stocchero <nick123pig@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+  	"lint": "./node_modules/.bin/html-beautify -r *.html && ./node_modules/.bin/css-beautify -r assets/css/*.css"
+  },
+  "dependencies": {
+    "pretty": "^2.0.0"
+  }
+}
