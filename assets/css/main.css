@@ -1,12 +1,21 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Cousine");
 
 /*joell classes*/
 
-.selectedmenu {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #87F306;
+.spotlightMiddle {
+    display: block;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    font-size: 3rem;
+    color: #cdcdcd;
+}
+
+.selected {
+    border-bottom: 3px solid; 
+    border-color: #AA00FF;
 }
 
 .hidden {
@@ -68,7 +77,9 @@
 }
 
 .hyperlink {
-    color: #9013FE;
+    color: #AA00FF;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .show-box {
@@ -112,7 +123,7 @@
 /* template */
 
 .caption-text {
-    color: #58a200;
+    color: #000;
 }
 
 @media screen and (max-width: 850px) {
@@ -1870,11 +1881,11 @@ body,
 input,
 select,
 textarea {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16pt;
     font-weight: 300;
-    letter-spacing: 0.025em;
-    line-height: 1.75em;
+    letter-spacing: 0.05em;
+    line-height: 2em;
 }
 
 a {
@@ -1882,8 +1893,9 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    color: #9013FE;
-    text-decoration: none;
+    color: #AA00FF;
+    text-decoration: underline;
+
 }
 
 
@@ -2017,7 +2029,7 @@ header.special .icon {
 header.special .icon:before {
     font-size: 3.5em;
     opacity: 1;
-    color: #58a200;
+    color: #000;
 }
 
 footer> :last-child {
@@ -2353,7 +2365,7 @@ input[type="reset"],
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    background: #9013FE;
+    background: #AA00FF;
     color: #FFF;
     cursor: pointer;
     display: inline-block;
@@ -2422,7 +2434,7 @@ input[type="reset"].small,
 }
 
 .wrapper.style2 {
-    background-color: #efefef;
+    background-color: #fcfcfc;
     background-position: bottom left, bottom right;
     background-repeat: no-repeat, no-repeat;
     background-size: 25em, 25em;
@@ -2504,7 +2516,6 @@ input[type="reset"].small,
     cursor: default;
     font-size: 0.8em;
     left: 0;
-    padding: 1em 1.5em;
     position: fixed;
     top: 0;
     width: 100%;
@@ -2526,6 +2537,7 @@ input[type="reset"].small,
     right: 1.5em;
     text-transform: uppercase;
     top: 0.75em;
+    font-family: 'Cousine'; monospace;
 }
 
 #header nav ul li {
@@ -2698,7 +2710,7 @@ input[type="reset"].small,
 
 #banner {
     background-attachment: scroll, fixed;
-    background-color: #000000;
+    background-color: #121212;
     background-position: top left, top center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -2717,8 +2729,10 @@ input[type="reset"].small,
     -webkit-animation-fill-mode: forwards;
     -ms-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    background-color: #000000;
+    background-color: #121212;
     color: #fff;
+    font-family: 'Cousine', monospace;
+    font-size: 2rem;
     display: inline-block;
     opacity: 0;
 }
@@ -2813,7 +2827,7 @@ body.index #main {
 /* Footer */
 
 #footer {
-    background: #DEDEDE;
+    background: #121212;
     color: #000;
     padding: 2em;
     text-align: center;
@@ -2834,7 +2848,7 @@ body.index #main {
     margin-left: 1em;
     padding-left: 1em;
     border-left: dotted 1px;
-    color: #9013FE;
+    color: #AA00FF;
 }
 
 #footer .copyright li:first-child {
