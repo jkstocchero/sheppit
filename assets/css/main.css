@@ -2716,7 +2716,7 @@ input[type="reset"].small,
     background-size: auto, cover;
     color: #fff;
     cursor: default;
-    padding: 8em 0;
+    padding: 15em 0;
     text-align: center;
 }
 
@@ -2760,7 +2760,6 @@ input[type="reset"].small,
 #banner .inner p {
     letter-spacing: 0.1em;
     margin: 0;
-    text-transform: uppercase;
 }
 
 #banner .inner p a {
