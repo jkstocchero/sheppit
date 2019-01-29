@@ -5,6 +5,13 @@
 /*joell classes*/
 
 
+.productFeature {
+    display: block;
+    width: 250px;
+    height: auto;
+
+}
+
 .spotlightMiddle {
     display: block;
     margin: auto;
