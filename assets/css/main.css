@@ -2308,6 +2308,7 @@ ul.buttons {
 
 ul.buttons:last-child {
     margin-bottom: 0;
+    width: 100%;
 }
 
 ul.buttons li {
