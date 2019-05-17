@@ -1,7 +1,9 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'libs/skel';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
 
 /*
 	Twenty by HTML5 UP
@@ -13,6 +15,6 @@
 
 	#banner {
 		.inner {
-			opacity: 1.0;
+			opacity: 1;
 		}
 	}
